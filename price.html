@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Barbershop / Price list</title>
+    <link href="img/favicon.png" type="image/png" rel="shortcut icon">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/style.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header class="main-header">
+       <div class="container clearfix">
+           <nav class="main-navigator">
+               <a class="logo-header" href="index.html">
+                   <img src="img/logo-header.png" width="111" height="24" alt="Borodinsky">
+               </a>
+               <ul>
+                   <li>
+                       <a href="index.html#news">Новости</a>
+                   </li>
+                   <li class="active">
+                       <span>Прайс-лист</span>
+                   </li>
+                   <li>
+                       <a href="market.html">Магазин</a>
+                   </li>
+                   <li>
+                       <a href="index.html#contact">Контакты</a>
+                   </li>
+               </ul>
+           </nav>
+           <div class="user-block">
+               <a class="login" href="#">Вход</a>
+           </div>
+       </div>
+    </header>
+    <main class="market-main">
+        <div class="container">
+            <div class="market-header clearfix">
+                <h1>Прайс-лист</h1>
+                <ul class="breadcrumbs">
+                    <li><a href="index.html">Главная</a></li>
+                    <li class="bread-current">Прайс-лист</li>
+                </ul>
+            </div>
+
+            <div class="slogan"><h2>Истинно мужская классика</h2>
+            </div>
+
+            <div class="price-content clearfix">
+                <div class="price-content-left">
+                    <div class="price-content-adv">
+                        <h2>Мы используем только<br>
+                            лучшие средства:</h2>
+                        <ul class="list">
+                            <li>Baxter of California</li>
+                            <li>Mr Natty</li>
+                            <li>Suavecito</li>
+                            <li>Malin+Goetz</li>
+                        </ul>
+                    </div>
+                    <div class="price-content-adout-us-left">
+                        <h2>Несколько слов о нас:</h2>
+                        <p>Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="price-content-right">
+                    <h2>Цены на услуги<br>
+                        наших мастеров:</h2>
+                    <table class="price-table">
+                        <tr>
+                            <td>Стрижка</td>
+                            <td>1500 p.</td>
+                        </tr>
+                        <tr>
+                            <td>Стрижка бороды</td>
+                            <td>500 p.</td>
+                        </tr>
+                        <tr>
+                            <td>Накрутка усов</td>
+                            <td>350 p.</td>
+                        </tr>
+                    </table>
+                    <div class="price-content-adout-us-right">
+                        <p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="container clearfix">
+            <section class="footer-contact">
+                Barbershop «Borodinski»<br>
+                адрес: г. Санкт-Петербург, ул. Собаки Павлова, д. 13<br>
+                <a href="https://www.google.com/maps?ll=59.977657,30.313444&z=17&t=m&hl=ru-RU&gl=RU&mapclient=embed&q=%D1%83%D0%BB.+%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D0%BA%D0%B0+%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%B0+%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3+197022" target="_blank">Как нас найти?</a><br>
+                телефон: +7 (495) 666-02-66
+            </section>
+            <section class="footer-social">
+                <p>Давайте дружить!</p>
+                <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+                <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+                <a href="#" class="social-btn social-btn-inst">Инстаграм</a>
+            </section>
+            <section class="footer-copyright">
+                <p>Дизайн сайта:</p>
+                <a href="https://github.com/evgktv" class="btn">evgktv</a>
+            </section>
+        </div>
+    </footer>
+
+    <div class="modal-login">
+        <button type="button" class="modal-close" title="Закрыть">Закрыть</button>
+        <h2 class="modal-login-title">Личный кабинет</h2>
+        <p>введите пожалуйста свой логин и пароль</p>
+        <form class="login-form" action="#" method="post">
+            <input class="user-icon" type="text" name="login" placeholder="логин">
+            <input class="password-icon" type="password" name="password" placeholder="пароль">
+            <label class="login-checkbox">
+                <input type="checkbox" name="remember">
+                <span class="checkbox-indicator"></span>
+                запомните меня
+            </label>
+            <a class="password-forgot" href="#">Я зыбыл пароль</a>
+            <button class="btn" type="submit">Войти</button>
+        </form>
+    </div>
+
+    <div class="modal-overlay"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
